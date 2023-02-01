@@ -7,7 +7,7 @@ def main():
     os.system("git add *")
     os.system("git commit -m '刷新了'")
     os.system("git push")
-    time.sleep(1)
+    time.sleep(10)
     os.system("1")
 
 
