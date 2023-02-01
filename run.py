@@ -10,8 +10,11 @@ def main():
     os.system("git commit -m '刷新了'")
     time.sleep(1)
     os.system("git push")
-    time.sleep(10)
-    os.system("1\n")
+    time.sleep(5)
+    os.system("1")
+    os.system("\n")
+
+
 
 
 
