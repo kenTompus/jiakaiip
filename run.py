@@ -11,7 +11,6 @@ def main():
     time.sleep(1)
     os.system("git push")
     time.sleep(5)
-    os.system("1")
     os.system("\n")
 
 
