@@ -3,7 +3,7 @@ import time
 
 def main():
     os.system("cd ~/文档/cornGetIP/")
-    os.system("curl cip.cc |grep IP >> dizhi.txt")
+    os.system("curl cip.cc |grep IP |md5sum >> dizhi.txt")
     time.sleep(10)
     os.system("git add *")
     time.sleep(1)
